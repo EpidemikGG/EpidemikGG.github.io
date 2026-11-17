@@ -1,7 +1,20 @@
-# Search Up or Down 🔍📈
+# Keyword vs Keyword — Higher or Lower? 🔍⬆⬇
 
-The **Search Up or Down** game — guess whether Google searches for a keyword go **UP** or **DOWN** month by month.
+A **Higher or Lower** game based on Google searches, in the style of [higherorlowergame.com](https://www.higherorlowergame.com/).
 
-**Play here:** https://epidemikgg.github.io/
+You see two keywords. Keyword A shows its average monthly Google searches — Keyword B shows only "???". Guess whether B is **HIGHER** or **LOWER**. One wrong guess ends the run.
 
-Also available at https://epidemikgg.github.io/search-up-or-down/ (requires Pages to be enabled on that repo: Settings → Pages → Deploy from a branch → main → / (root)).
+## 🎯 Difficulty Curve
+Each correct answer makes it harder:
+- The **relative gap** between the two keywords' search volumes shrinks
+- **More obscure keywords** (niche hobbies, tools) start appearing instead of famous brands
+
+Difficulty level is shown 1–10 in the HUD.
+
+## ▶️ Play
+**https://epidemikgg.github.io/**
+
+Keyboard: ↑ = Higher, ↓ = Lower, Enter = restart.
+
+## 📊 Data
+~85 keywords with illustrative average monthly search volumes, calibrated against published top-search lists ([Ahrefs](https://ahrefs.com/blog/top-google-searches), [SE Ranking](https://seranking.com/blog/top-google-searches)) and Google Trends-style popularity tiers. Not live data — estimates for gameplay.
